@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Personal Finance Visualizer
 
-## Getting Started
+A simple and responsive web application for tracking personal finances, built using **Next.js**, **React**, **shadcn/ui**, **Recharts**, and **MongoDB**. This app allows users to track their income and expenses, visualize their spending trends, and set category-wise budgets.
 
-First, run the development server:
+> 🚫 Note: This project does **not** include any authentication functionality, as per the guidelines.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 [Live Deployment URL](https://your-live-url.com)  
+📂 [GitHub Repository](https://github.com/your-username/personal-finance-visualizer)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js, React
+- **UI Library**: shadcn/ui
+- **Charts**: Recharts
+- **Database**: MongoDB(Mongoose)
+- **Language**: TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Features
 
-## Deploy on Vercel
+### ✅ Stage 1: Basic Transaction Tracking
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Add, edit, and delete transactions (amount, date, description)
+- Transaction list view
+- Monthly expenses bar chart using Recharts
+- Basic form validation and error states
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ✅ Stage 2: Categories
+
+- All Stage 1 features
+- Predefined transaction categories (e.g., Food, Rent, Utilities)
+- Category-wise pie chart
+- Dashboard with summary cards:
+  - Total expenses
+  - Category breakdown
+  - Most recent transactions
+
+### ✅ Stage 3: Budgeting
+
+- All Stage 2 features
+- Set monthly budgets for each category
+- Budget vs actual spending comparison chart
+- Simple spending insights and recommendations
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots or a short GIF here showing the dashboard, charts, and transaction form.
+
+---
+
+## 🧪 Installation & Development
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/personal-finance-visualizer.git
+   cd personal-finance-visualizer
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables in a `.env.local` file:
+   ```
+   MONGODB_URI=your-mongodb-connection-string
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## ✅ Requirements Met
+
+- [x] Responsive Design
+- [x] Form Validation and Error States
+- [x] MongoDB Integration
+- [x] Recharts for Data Visualization
+- [x] No Authentication (as required)
+
+---
+
+## 📦 Deployment
+
+Deployed using [Vercel](https://vercel.com/) for seamless Next.js support.  
+Make sure to set the `MONGODB_URI` environment variable in your Vercel dashboard.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 🙌 Acknowledgments
+
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Recharts](https://recharts.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Next.js](https://nextjs.org/)
+
+---
+
+Feel free to reach out for improvements, contributions, or feedback!
