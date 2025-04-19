@@ -8,8 +8,8 @@ A simple and responsive web application for tracking personal finances, built us
 
 ## 🚀 Live Demo
 
-🔗 [Live Deployment URL](https://your-live-url.com)  
-📂 [GitHub Repository](https://github.com/your-username/personal-finance-visualizer)
+🔗 [Live Deployment URL](https://transaction-tracker-nextjs-emu33yg1v-dileep-rajoriyas-projects.vercel.app/)  
+📂 [GitHub Repository](https://github.com/Er-Dileep-rajoriya/Transaction-Tracker-NEXTJS)
 
 ---
 
